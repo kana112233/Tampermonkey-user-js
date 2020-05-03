@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         百度页面带谷歌搜索
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0.1
 // @description  百度搜索加上谷歌按钮
 // @author       makey
 // @grant        GM_openInTab
