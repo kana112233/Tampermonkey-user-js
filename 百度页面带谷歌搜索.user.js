@@ -18,9 +18,17 @@
        var searchText = document.querySelector('#kw').value;
        GM_openInTab( getGoogleUrl(searchText), false);
    }
-    $('#su').after('<input type="button" id="google" value="Google一下" class="btn self-btn bg s_btn" style="background-color:grey;" />');
-    $("#google").click(function() {
-        googleIt();
-    });
+   
+   $('#su').after('<input type="button" id="google" value="Google一下" class="btn self-btn bg s_btn" style="background-color:black;" />');
+
+   $("#google").click(function() {
+       googleIt();
+   });
+
+   setTimeout(function(){
+       if($("#google").val() !== "Google一下"){
+           $("#google").val("Google一下");
+       }
+   }, 2000);
 
 })();
