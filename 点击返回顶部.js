@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        点击返回顶部
-// @namespace    http://tampermonkey.net/
-// @version      0.42
+// @namespace    https://github.com/kana112233/Tampermonkey-user-js/blob/master/%E7%82%B9%E5%87%BB%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8.js
+// @version      0.0.1
 // @description  click the arrow-up pic to jump to the top of page.
 // @author       kana112233
 // @include      *
