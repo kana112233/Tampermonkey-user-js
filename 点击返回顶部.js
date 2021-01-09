@@ -11,7 +11,7 @@
 // @description:zh-CN  点击向上的箭头按钮返回到页面顶部
 // ==/UserScript==
 
-(function(){window.onload = function(){
+(function() {
     console.log('DOM already loaded.');
     if(window.top == window.self){
         var aNode = document.createElement('a');
@@ -48,4 +48,5 @@
         var eBody = document.querySelector('body');
         eBody.append(aNode);
     }
-};})();
+
+})();
